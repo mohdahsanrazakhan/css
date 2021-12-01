@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SNAP EFFECT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+            color: #000080;
+        }
+
+        .container {
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            height: 100vh;
+        }
+
+        .one {
+            background: #FF9933;
+        }
+
+        .two {
+            background: #FFFFFF;
+        }
+
+        .three {
+            background: #138808;
+        }
+
+        .four {
+            background: lightsalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="one">
+            <h1>Strength and Courage</h1>
+        </section>
+        <section class="two">
+            <h1>Peace and Truth</h1>
+        </section>
+        <section class="three">
+            <h1>Fertility, Growth, and Auspiciousness of our land</h1>
+        </section>
+        <section class="four">
+            <h1>Meaning of our national flag</h1>
+        </section>
+    </div>
+</body>
+
+</html>
+
+<!-- Awesome Full Page Scroll Effect @Dev Ed (Link: https://youtu.be/htw4iKMYzEc) -->

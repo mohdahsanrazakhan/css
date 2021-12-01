@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+/* # is use to target id */
+#first {
+    background-color: blueviolet;
+    color: white;
+}
+/* . is use to target class */
+.bg-blue {
+    background-color: cornflowerblue;
+}
